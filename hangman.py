@@ -1,4 +1,4 @@
-#hangman allows maximum 6 tries
+#hangman allows maximum 7 tries
 
 #lets first define a list of words
 word_list = ['python', 'pizza', 'java', 'fern', 'javascript', 'truffle', 'muse', 'hangman', 'godot', 'gofer', 'cryengine', 'unity', 'blender', 'google', 'firefox', 'chatgpt', 'youtube', 'netflix', 'retro', 'synthwave', 'cheez']
@@ -14,7 +14,7 @@ word = random.choice(word_list)
 letters = set(word)
 correct_guesses = []
 wrong_guesses = 0
-attempts = 6
+attempts = 7
 guess = input('guess the letter: ')
 complete_word = set(correct_guesses)
 
